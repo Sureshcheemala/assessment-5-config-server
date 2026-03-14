@@ -2,7 +2,7 @@ spring:
   application:
     name: MOVIE-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/movieDB?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/movieslistDB?createDatabaseIfNotExist=true
     username: root
     password: MySql@123
     driver-class-name: com.mysql.cj.jdbc.Driver
